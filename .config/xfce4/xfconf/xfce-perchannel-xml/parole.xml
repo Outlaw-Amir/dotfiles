@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="parole" version="1.0">
+  <property name="subtitles" type="empty">
+    <property name="font" type="string" value="Sans Bold 20"/>
+  </property>
+  <property name="window" type="empty">
+    <property name="maximized" type="bool" value="false"/>
+    <property name="width" type="int" value="760"/>
+    <property name="height" type="int" value="614"/>
+  </property>
+  <property name="audio" type="empty">
+    <property name="volume" type="int" value="100"/>
+    <property name="visualization-enabled" type="bool" value="true"/>
+    <property name="visualization-name" type="string" value="goom2k1"/>
+  </property>
+  <property name="folders" type="empty">
+    <property name="last-used-media" type="string" value="/home/amir/Videos"/>
+  </property>
+</channel>

@@ -1,0 +1,37 @@
+# ===== important autostarts =====
+
+# Auth with polkit-gnome or lxpolkit:
+#exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec lxpolkit
+
+# Desktop notifications
+exec mako
+
+# Network Applet
+#exec nm-applet --indicator
+
+# GTK3 applications take a long time to start
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+     
+# Welcome App
+
+#exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+exec dex-autostart -a -s ~/.config/autostart/  
+
+# Sway Fader
+# exec python3 ~/.config/sway/scripts/swayfader.py     
+
+# autotiling
+exec autotiling
+
+# focus animation
+#exec flashfocus
+
+# wob overlay 
+# needs setting the bindsym according to the wob github page 
+# install wob from github or aur
+
+#set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
+#exec ~/.config/sway/scripts/wobstart
