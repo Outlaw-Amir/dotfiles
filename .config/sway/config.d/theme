@@ -18,7 +18,7 @@ font pango:Cantarell Bold 10
 smart_borders on
 
 # Set wallpaper
-exec bash /home/amir/.azotebg
+exec bash ~/.azotebg
 #exec swaybg -i '/home/amir/Pictures/wallpapers/gruvbox_astronaut_upscaled.jpg'
 
 # Title format for windows
