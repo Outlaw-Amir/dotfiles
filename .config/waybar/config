@@ -4,7 +4,7 @@
     "position": "top",
 
     // If heightR property would be not present, it'd be calculated dynamically
-    "height": 10,
+    "height": 30,
     //"width" : 1920,
 
     "modules-left": [
@@ -182,8 +182,8 @@
     },
 
     "tray": {
-        "icon-size": 12,
-        "spacing":10,
+        "icon-size": 13,
+        "spacing":12,
      },
 
     "backlight#icon": {
