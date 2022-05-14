@@ -1,5 +1,0 @@
-11/04/22 (03:14:31) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
-Traceback (most recent call last):
-  File "/usr/bin/bpytop", line 957, in _get_key
-    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
-OSError: [Errno 5] Input/output error
