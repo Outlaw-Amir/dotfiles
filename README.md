@@ -1,3 +1,3 @@
 # dotfiles
 
-- main dotfiles including sway and i3 configs
+- main dotfiles including sway,i3 and mpv configs
