@@ -10,14 +10,14 @@
         position: fixed ;
         top: 0 ;
         left: 0 ;
-        background: #363636 no-repeat center ;
+        background: #282828 no-repeat center ;
         background-size: cover ;
         width: 100vw ;
         height: 100vh ;
     }
     
     .search-handoff-button {
-    background-color: #272727 !important; 
+    background-color: #3c3836 !important; 
     }
     .fake-textbox {
     color: #f2f2f2 !important; 
