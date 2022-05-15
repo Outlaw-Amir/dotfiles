@@ -11,7 +11,7 @@
  * -------------------------------------------------------------------------- */
 
 /*
-Arc-Dark Color Scheme
+Gruvbox-Dark Color Scheme
 */
 @define-color highlight #689D6A ;
 @define-color fg #ebdbb2 ;
@@ -186,14 +186,15 @@ Arc-Dark Color Scheme
 #window {
     font-weight: bold;
     /*background-color: @base2;*/
-    padding: 5px;
+    padding: 4px;
+    margin-left: 4px;
     color:#A89984;
 }
 #custom-scratchpad_indicator {
     font-weight: bold;
     font-size: 10px;
     /*background-color: @base2;*/
-    padding: 5px;
+    padding: 4px;
     color:#928374;
 }
 
