@@ -17,12 +17,13 @@ sh ~/.config/polybar/polybar.sh &
 #BSPWM
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 bspc config border_width         1
-bspc config normal_border_color \#92837400
+bspc config normal_border_color \#3c3836
 bspc config active_border_color \#8ec07c
-bspc config focused_border_color \#928374
+bspc config focused_border_color \#7c6f64
+bspc config top_padding         -5
 bspc config window_gap          12
-#bspc config top_padding 30
+#bspc config top_monocle_padding  0
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
-bspc config gapless_monocle      false
+bspc config gapless_monocle      true
 bspc config focus_follows_pointer true

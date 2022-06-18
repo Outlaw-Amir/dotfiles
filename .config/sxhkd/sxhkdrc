@@ -16,7 +16,7 @@ super + n
 
 # web browser
 super + w
-	chromium
+	firefox
 
 # screenshot
 Print
