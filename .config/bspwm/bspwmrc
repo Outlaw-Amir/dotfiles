@@ -7,8 +7,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 #pipewire-media-session &
 #xsetroot -solid "#2C2E3D" &
 xsetroot -cursor_name left_ptr & 
+#xinput --set-prop 11 322 1 &
 nitrogen --restore &
 dbus-launch dunst --config ~/.config/dunst/dunstrc &
+lxpolkit &
 numlockx on &
 picom -b -f &
 setxkbmap -layout us,ir -option grp:win_space_toggle &
