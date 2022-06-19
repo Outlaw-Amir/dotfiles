@@ -22,9 +22,11 @@ window {
     transparency:                   "real";
     background-color:               @background;
     text-color:                     @foreground;
-    border-radius:                  0px;
-    height:                         42%;
-    width:                          100%;
+    border-radius:                  6px;
+    border:                         1px;
+    border-color:                   #7c6f64;
+    height:                         40%;
+    width:                          70%;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -42,7 +44,7 @@ textbox-prompt-colon {
 	str: 							"System |";
 	background-color: 				@background-alt;
 	text-color: 					@foreground;
-    padding:                        1% 0.5% 1% 7%;
+    padding:                        1% 0.5% 1% 8%;
 }
 
 inputbar {
@@ -53,15 +55,15 @@ inputbar {
     border:                  		0% 0% 0% 0%;
     border-radius:                  0% 0% 0% 0%;
     border-color:                  	@border;
-    margin:                         0% 33.25% 0% 20%;
+    margin:                         0% 16.25% 0% 15%;
     padding:                        0.5%;
     position:                       center;
 }
 
 listview {
     background-color:               @background;
-    margin:                         0% 0% 0% 0%;
-    spacing:                        3%;
+    margin:                         3% 0% 0% 1%;
+    spacing:                        2%;
     cycle:                          true;
     dynamic:                        true;
     layout:                         horizontal;
@@ -71,14 +73,14 @@ mainbox {
     background-color:               @background;
     children:                       [ listview, inputbar ];
     spacing:                        0%;
-    padding:                        5% 0% 5% 13.25%;
+    padding:                        1% 0% 4% 1%;
 }
 
 element {
     background-color:               @background-alt;
     text-color:                     @foreground;
     orientation:                    horizontal;
-    border-radius:                  0%;
+    border-radius:                  6px;
 }
 
 element-text {
@@ -108,7 +110,7 @@ element selected {
     background-color:               @selected;
     text-color:                     @foreground;
     border:                  		0% 0% 1.5% 0%;
-    border-radius:                  0%;
+    border-radius:                  6px;
     border-color:                  	@border;
 }
 
