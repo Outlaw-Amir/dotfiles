@@ -44,7 +44,7 @@ textbox-prompt-colon {
 	str: 							"System |";
 	background-color: 				@background-alt;
 	text-color: 					@foreground;
-    padding:                        1% 0.5% 1% 8%;
+    padding:                        1% 0.5% 1% 10%;
 }
 
 inputbar {
