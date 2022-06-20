@@ -1,0 +1,17 @@
+bspwm
+sxhkd
+polybar
+picom
+dmenu
+rofi
+alacritty
+pamixer
+brightnessctl
+fonts-jetbrains-mono
+nitrogen
+numlockx
+lxpolkit
+flameshot
+dunst
+lxappearance
+nautilus
