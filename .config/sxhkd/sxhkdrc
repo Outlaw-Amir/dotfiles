@@ -30,13 +30,33 @@ Print
 shift + Print
 	flameshot gui -p ~/Pictures/Screenshots
 
+
+# volume control
+XF86AudioLowerVolume
+	pamixer -ud 5
+XF86AudioRaiseVolume
+	pamixer -ui 5
+XF86AudioMute
+    pamixer -t
+
+
+# Brightness control
+XF86MonBrightnessUp
+	brightnessctl -c backlight set +5%
+XF86MonBrightnessDown
+	brightnessctl -c backlight set 5%-
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
-#
-# bspwm hotkeys
-#
+
+
+
+# # # # # # # # #
+# bspwm hotkeys #
+# # # # # # # # #
+
 
 # quit/restart bspwm
 super + alt + {q,r}
@@ -78,6 +98,10 @@ super + {_,shift + }{h,j,k,l}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
+# focus or send the given desktop with numpad keys
+super + {_,shift + }{KP_End,KP_Down,KP_Next,KP_Left,KP_Begin,KP_Right,KP_Home,KP_Up,KP_Prior,KP_Insert}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
 #
 # move/resize
 #
@@ -93,19 +117,3 @@ super + alt + {h,j,k,l}
 # contract a window by moving one of its side inward
 super + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
-
-
-# volume control
-XF86AudioLowerVolume
-	pamixer -ud 5
-XF86AudioRaiseVolume
-	pamixer -ui 5
-XF86AudioMute
-    pamixer -t
-
-
-# Brightness control
-XF86MonBrightnessUp
-	brightnessctl -c backlight set +5%
-XF86MonBrightnessDown
-	brightnessctl -c backlight set 5%-
