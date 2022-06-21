@@ -48,7 +48,7 @@ case $chosen in
         ;;
     $lock)
 		if [[ -f /usr/bin/i3lock ]]; then
-			i3lock -c 000000
+			i3lock -c 191917
 		elif [[ -f /usr/bin/betterlockscreen ]]; then
 			betterlockscreen -l
 		fi
