@@ -8,4 +8,4 @@ configuration {
   display-window: "";
   display-combi: "";
 }
-@theme "themes/gruvbox.rasi"
+@theme "gruvbox-dark.rasi"
