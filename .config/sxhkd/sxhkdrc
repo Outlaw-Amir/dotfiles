@@ -15,6 +15,10 @@ super + d
 super + p
 	$HOME/.config/rofi/powermenu/powermenu.sh
 
+# window list
+super + Tab
+	rofi -show window
+
 # file manager
 super + n
 	nautilus -w

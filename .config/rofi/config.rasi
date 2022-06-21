@@ -3,8 +3,9 @@
 configuration {
   show-icons: true;
   icon-theme: "Papirus-Dark";
+  modi: [window,drun];
   display-drun: "";
   display-window: "";
   display-combi: "";
 }
-@theme "themes/sidetab-gruvbox.rasi"
+@theme "themes/gruvbox.rasi"

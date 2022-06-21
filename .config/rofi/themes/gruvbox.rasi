@@ -55,6 +55,7 @@ element selected {
 element-text {
     background-color: inherit;
     text-color: inherit;
+    font: "Jetbrains Mono 12"; 
 }
 
 element-icon {
