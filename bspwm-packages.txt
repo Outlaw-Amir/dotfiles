@@ -8,6 +8,7 @@ alacritty
 pamixer
 brightnessctl
 fonts-jetbrains-mono
+fonts-font-awesome
 nitrogen
 numlockx
 lxpolkit
