@@ -10,16 +10,16 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 #pipewire-pulse &
 #pipewire-media-session &
 #xsetroot -solid "#2C2E3D"
-xsetroot -cursor_name left_ptr
+xsetroot -cursor_name left_ptr &
 #xinput --set-prop 11 322 1
+sh ~/.config/polybar/polybar.sh &
+sxhkd &
+picom -b -f &
+setxkbmap -layout us,ir -option grp:win_space_toggle &
 nitrogen --restore &
 dbus-launch dunst --config ~/.config/dunst/dunstrc &
 lxpolkit &
 numlockx on &
-picom -b -f &
-setxkbmap -layout us,ir -option grp:win_space_toggle &
-sxhkd &
-sh ~/.config/polybar/polybar.sh &
 
 # # # # # #
 #  BSPWM  #
@@ -43,3 +43,5 @@ bspc rule -a Nitrogen state=floating
 bspc rule -a Firefox:Toolkit state=floating
 bspc rule -a Firefox-esr:Toolkit state=floating
 bspc rule -a Gcolor3 state=floating
+bspc rule -a xdg-desktop-portal-gnome state=floating
+bspc rule -a xdg-desktop-portal-gtk state=floating
