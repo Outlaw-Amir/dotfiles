@@ -18,6 +18,7 @@
     location: center;
     anchor: center;
     height: 70%;
+    width: 30%;
     margin: 0;
 }
 
