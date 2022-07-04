@@ -21,6 +21,7 @@ dbus-launch dunst --config ~/.config/dunst/dunstrc &
 lxpolkit &
 numlockx on &
 #nm-applet &
+xss-lock -l ~/.scripts/transfer-sleep-lock-i3lock.sh &
 
 # # # # # #
 #  BSPWM  #
