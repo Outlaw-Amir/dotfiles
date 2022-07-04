@@ -3,7 +3,7 @@
     foreground: #d4be98;
     border-color: @grey;
     bg-selected: #3c3836;
-    grey: #7c6f64;
+    grey: #665c54;
     spacing: 2;
     width: 30em;
     margin: 0;
@@ -12,7 +12,7 @@
 
 #window {
     background-color: @background;
-    border: 1;
+    border: 2;
     border-radius: 6px;
     padding: 0;
     location: center;

@@ -23,8 +23,8 @@ window {
     background-color:               @background;
     text-color:                     @foreground;
     border-radius:                  6px;
-    border:                         1px;
-    border-color:                   #7c6f64;
+    border:                         2px;
+    border-color:                   #665c54;
     height:                         40%;
     width:                          70%;
     location:                       center;
